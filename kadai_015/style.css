@@ -1,0 +1,45 @@
+/* フォントの種類 */
+body {
+    font-family: "Arial", "Meiryo", sans-serif;
+    text-align: center;
+  }
+  
+  /* フォントサイズ */
+  :root {
+    font-size: 20px;
+  }
+  
+  /* フォントカラー */
+  /* 「MY PROFILE」の「M」をスカイブルーに、「P」をピンクに */
+  .blue {
+    color: skyblue;
+  }
+  
+  .pink {
+    color: rgb(255, 192, 203);
+  }
+  
+  /* 「名前」「血液型」「好きな食べ物」の見出し → ピンク */
+  /* 「生年月日」「趣味」「プログラミングを始めた理由」の見出し → スカイブルー */
+  /* ※ すでに .pink と .blue クラスで装飾済み */
+  
+  /* h1の装飾 */
+  h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem; /* ルート要素（20px）の2倍 */
+    letter-spacing: 1.2em; /* 文字の大きさに対して1.2倍 */
+    text-shadow: 2px 2px 4px gray; /* 文字の影（自由） */
+    border-bottom: 3px solid rgb(115, 115, 114); /* 下線 */
+  }
+  
+  /* その他の装飾 */
+  /* 「侍太郎」「1990年1月1日」「O型」を太字（#basic内のpだけ太字） */
+  #basic p {
+    font-weight: bold;
+  }
+  
+  /* それ以外のp要素は太字にしない */
+  body p {
+    font-weight: normal;
+  }
+  
